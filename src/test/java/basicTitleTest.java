@@ -19,7 +19,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class basicTitleTest {
 	
 	//URL to visit
-	public String QWE="http://10.10.1.230:8010/hangman-1.0-20170928.070200-46/";
+	public String QWE="http://10.10.1.230:8010/hangman/";
 	
 	//Title to check
 	public String QWE1="TeamA";
