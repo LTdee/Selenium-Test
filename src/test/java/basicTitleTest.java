@@ -1,4 +1,14 @@
 package Selenium;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.internal.Locatable;
+import org.openqa.selenium.remote.Augmenter;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait; 
 import static org.junit.Assert.*;
 import org.openqa.selenium.remote.Augmenter;
 import org.testng.TestListenerAdapter;
@@ -19,10 +29,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class basicTitleTest {
 	
 	//URL to visit
-	public String QWE="http://10.10.1.230:8010/hangman-1/";
+	public String QWE="http://tomcat.13.115.55.128.xip.io/CurrencyConverter-1/";
 	
 	//Title to check
-	public String QWE1="TeamA";
+	public String QWE1="Currency Converter";
 	public String nodeURL = "http://selenium-hub:4444/wd/hub";
 
 	public static void main(String[] args){
