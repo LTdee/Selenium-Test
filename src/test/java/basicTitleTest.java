@@ -33,7 +33,7 @@ public class basicTitleTest {
 	
 	//Title to check
 	public String QWE1="Currency Converter";
-	public String nodeURL = "http://selenium-hub:4444/wd/hub";
+	public String nodeURL = "http://18.191.181.203/grid/console";
 
 	public static void main(String[] args){
 		TestListenerAdapter tla = new TestListenerAdapter();
