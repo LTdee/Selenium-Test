@@ -33,7 +33,7 @@ public class basicTitleTest {
 	
 	//Title to check
 	public String QWE1="Currency Converter";
-	public String nodeURL = "http://18.191.181.203/grid/console";
+	public String nodeURL = "http://13.229.197.66:443/wd/hub";
 
 	public static void main(String[] args){
 		TestListenerAdapter tla = new TestListenerAdapter();
@@ -49,7 +49,7 @@ public class basicTitleTest {
 		DesiredCapabilities capability = DesiredCapabilities.firefox();
 		capability.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
 		capability.setBrowserName("firefox");
-		//capabilities.setPlatform(Platform.Linux);
+		capabilities.setPlatform(Platform.Linux);
 
         WebDriver driver = new RemoteWebDriver(new URL(nodeURL), capability);
         System.out.println("navigating to: " + QWE);
