@@ -33,7 +33,7 @@ public class basicTitleTest {
 	
 	//Title to check
 	public String QWE1="Currency Converter";
-	public String nodeURL = "http://eng-aus-e005.corp.wayport.net/wd/hub";
+	public String nodeURL = "http://18.191.139.56/wd/hub";
 
 	public static void main(String[] args){
 		TestListenerAdapter tla = new TestListenerAdapter();
