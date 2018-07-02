@@ -21,7 +21,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeProfile;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -46,9 +46,9 @@ public class basicTitleTest {
 	@Test
 	public void testSelenium() throws IOException
 	{
-		DesiredCapabilities capability = DesiredCapabilities.chrome();
+		DesiredCapabilities capability = DesiredCapabilities.firefox();
 		capability.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
-		capability.setBrowserName("chrome");
+		capability.setBrowserName("firefox");
 		//capabilities.setPlatform(Platform.Linux);
 
         WebDriver driver = new RemoteWebDriver(new URL(nodeURL), capability);
