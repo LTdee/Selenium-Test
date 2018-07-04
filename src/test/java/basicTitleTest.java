@@ -32,7 +32,7 @@ public class basicTitleTest {
 	public String QWE="https://hub.docker.com/";
 	
 	//Title to check
-	public String QWE1="AUSTRALIA";
+	public String QWE1="Docker Hub";
 	public String nodeURL = "http://selenium-hub:4444/wd/hub";
 
 	public static void main(String[] args){
